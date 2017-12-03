@@ -966,10 +966,10 @@ public class StickyGridHeadersGridView extends GridView implements OnScrollListe
             canvas.translate(getPaddingLeft(), top);
         }
 
-        if (mHeaderBottomPosition != headerHeight) {
-            canvas.saveLayerAlpha(0, 0, canvas.getWidth(), canvas.getHeight(), 255
-                    * mHeaderBottomPosition / headerHeight, Canvas.ALL_SAVE_FLAG);
-        }
+//        if (mHeaderBottomPosition != headerHeight) {
+//            canvas.saveLayerAlpha(0, 0, canvas.getWidth(), canvas.getHeight(), 255
+//                    * mHeaderBottomPosition / headerHeight, Canvas.ALL_SAVE_FLAG);
+//        }
 
         mStickiedHeader.draw(canvas);
 
